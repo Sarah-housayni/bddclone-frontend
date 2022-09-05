@@ -244,11 +244,15 @@
   .download-discription{
     text-align: right;
   }
-  .download-button{
+  .download-img{
+  margin-top: 10px;
     display: flex;
-    margin-left: 10px;
-    justify-content: flex-end;
-    padding: 10px;
+    justify-content: end;
+  }
+  .download-figures{
+    width: 120px;
+    height: 35px;
+    margin-right: 15px;
   }
   .statistics{
     background: url("/images/parallax-light.jpg");
