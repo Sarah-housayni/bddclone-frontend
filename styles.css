@@ -76,6 +76,12 @@
     text-align: center;
     
   }
+  .hero-button{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 30vh;
+  }
   .explore{
     background: url("./images/parallax-4.jpg");
     background-size: cover;
@@ -182,6 +188,7 @@
   .joinways-part{
     margin: 25px;
     background-color: #00802d;
+    width: 25%;
     
   }
   .joinways-title{
@@ -197,20 +204,26 @@
     background-color: rgb(245, 238, 238);
     
   }
-  .join-img{
+  .joinways-list{
+    padding: 10px;
+  }
+  /* .join-img{
     
     width: 70%;
     height: 20%;
-    
-  }
+     */
+  /* } */
   .joinbdd{
     display: flex;
     justify-content: space-between;
+    /* padding-right: 15px; */
+    padding-left: 15px;
     
   }
   .joinways{
     display: flex;
-    
+    justify-content: center;
+    height: 660px;
     
   }
   .download{
